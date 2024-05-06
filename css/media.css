@@ -44,4 +44,30 @@
     .achievements {
         padding: 50px 0;
     }
+
+    .skills__container {
+        /* flex-direction: column-reverse; */
+        /* align-items: center; */
+    }
+
+    .form__rows {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .form__input {
+        flex: 1 0 100%;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .footer__user-name {
+        margin-bottom: 10px;
+    }
 }
+
+@media (max-width: 425px) {}
